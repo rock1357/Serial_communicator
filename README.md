@@ -1,2 +1,2 @@
 # Serial_communicator
-This software, developed with Qt and C++, manages communication with devices through a state machine.
+This software, developed using Qt and C++, manages communication with devices through a state machine. It implements a user interface with timers for polling device status and handles commands for LCDs and displays. The `StateMachine` class uses `QTimer` for periodic updates and `FWMaster` for register operations. It supports parameter configuration, error handling, and displays results via signals and slots, ensuring efficient real-time interaction between the interface and connected devices.
